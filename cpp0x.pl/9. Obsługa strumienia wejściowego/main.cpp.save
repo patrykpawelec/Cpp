@@ -1,0 +1,27 @@
+#include <iostream>
+int main()
+{
+    float a,b,c;
+    std::cout << "Podaj liczbe: ";
+    std::cin >> a;
+    std::cout << "Wczytano? " << std::cin.good() << std::endl;
+    //std::cout << "Czy cos nawalilo? " << std::cin.fail() << std::endl;
+    //bool aCzySukces = std::cin.good();
+    std::cin.clear();
+    std::cin.sync();
+    std::cout << "Podaj liczbe: ";
+    std::cin >> b;
+    std::cout << "Wczytano? " << std::cin.good() << std::endl;
+    //std::cout << "Czy cos nawalilo? " << std::cin.fail() << std::endl;
+    //bool bCzySukces = std::cin.good();
+    std::cout << "Podaj liczbe: ";
+    std::cin >> c;
+    std::cout << "Wczytano? " << std::cin.good() << std::endl;
+    //std::cout << "Czy cos nawalilo? " << std::cin.fail() << std::endl;
+    //bool bCzySukces = std::cin.good();
+    std::cout << "Liczba a = " << a << std::endl;
+    std::cout << "Liczba a = " << a << std::endl;
+    std::cout << "Liczba b = " << b << std::endl;
+    //std::cout << "bool: " << aCzySukces << bCzySukces;
+    return 0;
+}

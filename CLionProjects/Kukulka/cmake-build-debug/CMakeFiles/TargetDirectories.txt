@@ -1,0 +1,3 @@
+D:/Cpp/CLionProjects/Kukulka/cmake-build-debug/CMakeFiles/Kukulka.dir
+D:/Cpp/CLionProjects/Kukulka/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cpp/CLionProjects/Kukulka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
